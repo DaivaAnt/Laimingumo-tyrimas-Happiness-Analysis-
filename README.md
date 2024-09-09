@@ -1,2 +1,6 @@
 # Laimingumo-tyrimas-Happiness-Analysis-
-Dirbtinio intelekto taikymas laimės indekso optimizavimui (World Happiness Report analysis with machine learning and neural networks)
+Darbo tema: Dirbtinio intelekto taikymas laimės indekso optimizavimui (World Happiness Report analysis with machine learning and neural networks)
+Tikslas: Sukurti modelį, kuris galėtų rekomenduoti politikos priemones, skirtas pagerinti šalies laimės indeksą.
+Duomenys: analizuojami 2015-2024 metų duomenys, pateikti www.kaggle.com (https://www.kaggle.com/datasets/unsdsn/world-happiness , https://www.kaggle.com/datasets/londeen/world-happiness-report-2020?select=WHR20_DataForFigure2.1.csv , https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021 , https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2022 , https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2023 ir https://www.kaggle.com/datasets/jainaru/world-happiness-report-2024-yearly-updated). 
+Visi duomenys buvo apjungti į vieną bendrą duomenų lentelę. Papildomai buvo sukurtas stulpelis "Metai". Skirtingais metais tie patys duomenų stulpeliai buvo pavadinami skirtingai, tačiau matavo tuos pačius parametrus. Todėl buvo suvienodinti sulpelių pavadinimai remiantis jų prasmėmis (pvz.: "Log GDP per capita, Logged GDP per capita, GDP per capita, Economy..GDP.per.Capita., Economy (GDP per Capita)" buvo apjungta į "Log GDP per capita" ir pan.).
+
